@@ -9,7 +9,7 @@ on:
       - created
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/${{ github.repository_name }}
+  IMAGE_NAME: ghcr.io/${{ github.repository_owner }}/${{ github.repository }}
 
 jobs:
   build_and_push:
